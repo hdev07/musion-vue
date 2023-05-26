@@ -203,7 +203,8 @@ import Logo from '@/assets/logos/OnlyTextLogo.vue'
           </nav>
         </div>
       </div>
-
+      <!-- *https://cuentame.inegi.org.mx/monografias/informacion/df/poblacion/ -->
+      <!-- https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2022/EstMuseos/EstMuseos2021.pdf -->
       <p class="text-xs text-primary">&copy; 2023. Company Name. All rights reserved.</p>
     </div>
   </footer>

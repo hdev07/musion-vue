@@ -17,10 +17,6 @@ const Links = ref([
     href: '#Museums'
   },
   {
-    title: 'Soluciones',
-    href: '#Solutions'
-  },
-  {
     title: 'FAQs',
     href: '#FAQs'
   },
@@ -86,7 +82,7 @@ onMounted(() => {
               :text="'Register'"
               :HBgPrimary="true"
               :SmBlock="true"
-              :hidden="!mobileMenuVisible"
+              :hidden="true"
             />
             <ButtonCommon
               :to="'https://app.musion.day/login'"

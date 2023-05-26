@@ -5,199 +5,97 @@
     <div class="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
       <div class="mx-auto max-w-3xl text-center">
         <h2 class="text-3xl font-bold text-white sm:text-4xl">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit
+          Estas son algunas de las ventajas que tiene usar MUSION
         </h2>
 
-        <p class="mt-4 text-white">
+        <!-- <p class="mt-4 text-white">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione dolores laborum labore
           provident impedit esse recusandae facere libero harum sequi.
-        </p>
+        </p> -->
       </div>
 
       <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
         <a
           class="block rounded-xl border border-pink-500/10 p-8 hover:shadow-xl transition bg-secondary hover:border-pink-500/30 hover:shadow-pink-500/30"
         >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="h-10 w-10 text-pink-500"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path d="M12 14l9-5-9-5-9 5 9 5z" />
-            <path
-              d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-            />
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-            />
-          </svg>
-
-          <h2 class="mt-4 text-xl font-bold text-white">Digital campaigns</h2>
+          <h2 class="mt-4 text-xl font-bold text-white">
+            Explora la Ciudad de México a través de un viaje cultural único
+          </h2>
 
           <p class="mt-1 text-sm text-gray-300">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci
-            distinctio alias voluptatum blanditiis laudantium.
+            Descubre la riqueza cultural de la Ciudad de México a través de un viaje único con
+            Musion.
           </p>
         </a>
 
         <a
           class="block rounded-xl border border-pink-500/10 p-8 hover:shadow-xl transition bg-secondary hover:border-pink-500/30 hover:shadow-pink-500/30"
         >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="h-10 w-10 text-pink-500"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path d="M12 14l9-5-9-5-9 5 9 5z" />
-            <path
-              d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-            />
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-            />
-          </svg>
-
-          <h2 class="mt-4 text-xl font-bold text-white">Digital campaigns</h2>
+          <h2 class="mt-4 text-xl font-bold text-white">
+            Descubre la increíble diversidad de los museos de la Ciudad
+          </h2>
 
           <p class="mt-1 text-sm text-gray-300">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci
-            distinctio alias voluptatum blanditiis laudantium.
+            Sumérgete en la diversidad de los museos de la Ciudad de México con Musion. Desde arte
+            clásico hasta ciencia y tecnología
           </p>
         </a>
 
         <a
           class="block rounded-xl border border-pink-500/10 p-8 hover:shadow-xl transition bg-secondary hover:border-pink-500/30 hover:shadow-pink-500/30"
         >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="h-10 w-10 text-pink-500"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path d="M12 14l9-5-9-5-9 5 9 5z" />
-            <path
-              d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-            />
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-            />
-          </svg>
-
-          <h2 class="mt-4 text-xl font-bold text-white">Digital campaigns</h2>
+          <h2 class="mt-4 text-xl font-bold text-white">
+            Sumérgete en el mundo del arte y la historia de la Ciudad
+          </h2>
 
           <p class="mt-1 text-sm text-gray-300">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci
-            distinctio alias voluptatum blanditiis laudantium.
+            Explora exposiciones impresionantes, aprende sobre la historia de la ciudad y déjate
+            sorprender por la belleza y el significado detrás de cada obra de arte.
           </p>
         </a>
 
         <a
           class="block rounded-xl border border-pink-500/10 p-8 hover:shadow-xl transition bg-secondary hover:border-pink-500/30 hover:shadow-pink-500/30"
         >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="h-10 w-10 text-pink-500"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path d="M12 14l9-5-9-5-9 5 9 5z" />
-            <path
-              d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-            />
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-            />
-          </svg>
-
-          <h2 class="mt-4 text-xl font-bold text-white">Digital campaigns</h2>
+          <h2 class="mt-4 text-xl font-bold text-white">
+            Musion te lleva de la mano a través de los museos más fascinantes de la Ciudad
+          </h2>
 
           <p class="mt-1 text-sm text-gray-300">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci
-            distinctio alias voluptatum blanditiis laudantium.
+            Deja que Musion te guíe a través de los museos más fascinantes de la Ciudad de México.
           </p>
         </a>
 
         <a
           class="block rounded-xl border border-pink-500/10 p-8 hover:shadow-xl transition bg-secondary hover:border-pink-500/30 hover:shadow-pink-500/30"
         >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="h-10 w-10 text-pink-500"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path d="M12 14l9-5-9-5-9 5 9 5z" />
-            <path
-              d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-            />
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-            />
-          </svg>
-
-          <h2 class="mt-4 text-xl font-bold text-white">Digital campaigns</h2>
+          <h2 class="mt-4 text-xl font-bold text-white">
+            Haz de tu visita a los museos de la Ciudad una experiencia inolvidable
+          </h2>
 
           <p class="mt-1 text-sm text-gray-300">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci
-            distinctio alias voluptatum blanditiis laudantium.
+            Descubre exposiciones impresionantes, participa en eventos especiales y crea recuerdos
+            duraderos mientras exploras la cultura y el arte de la ciudad.
           </p>
         </a>
 
         <a
           class="block rounded-xl border border-pink-500/10 p-8 hover:shadow-xl transition bg-secondary hover:border-pink-500/30 hover:shadow-pink-500/30"
         >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="h-10 w-10 text-pink-500"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path d="M12 14l9-5-9-5-9 5 9 5z" />
-            <path
-              d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-            />
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-            />
-          </svg>
-
-          <h2 class="mt-4 text-xl font-bold text-white">Digital campaigns</h2>
+          <h2 class="mt-4 text-xl font-bold text-white">
+            Musion: desbloquear la riqueza cultural de la Ciudad
+          </h2>
 
           <p class="mt-1 text-sm text-gray-300">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci
-            distinctio alias voluptatum blanditiis laudantium.
+            Nuestra aplicación web te brinda acceso a una amplia gama de museos, exposiciones y
+            eventos culturales, permitiéndote sumergirte en la historia y la diversidad
           </p>
         </a>
       </div>
 
       <div class="mt-12 flex flex-wrap justify-center gap-4 text-center">
         <a
+          href="'https://app.musion.day/login'"
           class="block w-full rounded border border-primary bg-primary px-12 py-3 text-sm font-medium text-white hover:shadow-xl focus:outline-none focus:ring active:text-opacity-75 sm:w-auto hover:bg-transparent hover:text-white hover:shadow-pink-500/30"
         >
           Inicia sesion
