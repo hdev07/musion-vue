@@ -49,7 +49,7 @@ import Logo from '@/assets/logos/OnlyTextLogo.vue'
             </a>
             <a href="https://app.musion.day/login">
               <div
-                class="block w-full rounded border border-primary px-5 py-2 text-sm text-white shadow-xl bg-primary hover:bg-transparent hover:text-white hover:shadow-pink-500/10"
+                class="block w-full rounded border border-primary px-5 py-2 text-sm text-white hover:shadow-xl bg-primary hover:bg-transparent hover:text-white hover:shadow-pink-500/30"
               >
                 Inicia sesion
               </div>

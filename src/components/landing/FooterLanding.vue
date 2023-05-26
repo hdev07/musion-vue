@@ -3,7 +3,7 @@ import Logo from '@/assets/logos/OnlyTextLogo.vue'
 </script>
 
 <template>
-  <footer aria-label="Site Footer" class="bg-white dark:bg-background">
+  <footer aria-label="Site Footer" class="bg-background">
     <div class="max-w-screen-xl px-4 py-16 mx-auto space-y-8 sm:px-6 lg:space-y-16 lg:px-8">
       <div class="sm:flex sm:items-center sm:justify-between">
         <div class="text-teal-600 dark:text-teal-300">
@@ -18,7 +18,7 @@ import Logo from '@/assets/logos/OnlyTextLogo.vue'
               href="/"
               rel="noreferrer"
               target="_blank"
-              class="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
+              class="text-white transition hover:text-primary"
             >
               <span class="sr-only">Facebook</span>
 
@@ -37,7 +37,7 @@ import Logo from '@/assets/logos/OnlyTextLogo.vue'
               href="/"
               rel="noreferrer"
               target="_blank"
-              class="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
+              class="text-white transition hover:text-primary"
             >
               <span class="sr-only">Instagram</span>
 
@@ -56,7 +56,7 @@ import Logo from '@/assets/logos/OnlyTextLogo.vue'
               href="/"
               rel="noreferrer"
               target="_blank"
-              class="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
+              class="text-white transition hover:text-primary"
             >
               <span class="sr-only">Twitter</span>
 
@@ -73,7 +73,7 @@ import Logo from '@/assets/logos/OnlyTextLogo.vue'
               href="/"
               rel="noreferrer"
               target="_blank"
-              class="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
+              class="text-white transition hover:text-primary"
             >
               <span class="sr-only">GitHub</span>
 
@@ -92,7 +92,7 @@ import Logo from '@/assets/logos/OnlyTextLogo.vue'
               href="/"
               rel="noreferrer"
               target="_blank"
-              class="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
+              class="text-white transition hover:text-primary"
             >
               <span class="sr-only">Dribbble</span>
 
@@ -109,134 +109,102 @@ import Logo from '@/assets/logos/OnlyTextLogo.vue'
       </div>
 
       <div
-        class="grid grid-cols-1 gap-8 pt-8 border-t border-gray-100 dark:border-gray-800 sm:grid-cols-2 lg:grid-cols-4 lg:pt-16"
+        class="grid grid-cols-1 gap-8 pt-8 border-t border-primary sm:grid-cols-2 lg:grid-cols-4 lg:pt-16"
       >
         <div>
-          <p class="font-medium text-white dark:text-white">Services</p>
+          <p class="font-medium text-primary">Services</p>
 
           <nav aria-label="Footer Navigation - Services" class="mt-6">
             <ul class="space-y-4 text-sm">
               <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-                  1on1 Coaching
-                </a>
+                <a href="#" class="text-white transition hover:text-primary"> 1on1 Coaching </a>
               </li>
 
               <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-                  Company Review
-                </a>
+                <a href="#" class="text-white transition hover:text-primary"> Company Review </a>
               </li>
 
               <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-                  Accounts Review
-                </a>
+                <a href="#" class="text-white transition hover:text-primary"> Accounts Review </a>
               </li>
 
               <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-                  HR Consulting
-                </a>
+                <a href="#" class="text-white transition hover:text-primary"> HR Consulting </a>
               </li>
 
               <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-                  SEO Optimisation
-                </a>
+                <a href="#" class="text-white transition hover:text-primary"> SEO Optimisation </a>
               </li>
             </ul>
           </nav>
         </div>
 
         <div>
-          <p class="font-medium text-white dark:text-white">Company</p>
+          <p class="font-medium text-primary">Company</p>
 
           <nav aria-label="Footer Navigation - Company" class="mt-6">
             <ul class="space-y-4 text-sm">
               <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-                  About
-                </a>
+                <a href="#" class="text-white transition hover:text-primary"> About </a>
               </li>
 
               <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-                  Meet the Team
-                </a>
+                <a href="#" class="text-white transition hover:text-primary"> Meet the Team </a>
               </li>
 
               <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-                  Accounts Review
-                </a>
+                <a href="#" class="text-white transition hover:text-primary"> Accounts Review </a>
               </li>
             </ul>
           </nav>
         </div>
 
         <div>
-          <p class="font-medium text-white dark:text-white">Helpful Links</p>
+          <p class="font-medium text-primary">Helpful Links</p>
 
           <nav aria-label="Footer Navigation - Company" class="mt-6">
             <ul class="space-y-4 text-sm">
               <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-                  Contact
-                </a>
+                <a href="#" class="text-white transition hover:text-primary"> Contact </a>
               </li>
 
               <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-                  FAQs
-                </a>
+                <a href="#" class="text-white transition hover:text-primary"> FAQs </a>
               </li>
 
               <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-                  Live Chat
-                </a>
+                <a href="#" class="text-white transition hover:text-primary"> Live Chat </a>
               </li>
             </ul>
           </nav>
         </div>
 
         <div>
-          <p class="font-medium text-white dark:text-white">Legal</p>
+          <p class="font-medium text-primary">Legal</p>
 
           <nav aria-label="Footer Navigation - Legal" class="mt-6">
             <ul class="space-y-4 text-sm">
               <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-                  Accessibility
-                </a>
+                <a href="#" class="text-white transition hover:text-primary"> Accessibility </a>
               </li>
 
               <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-                  Returns Policy
-                </a>
+                <a href="#" class="text-white transition hover:text-primary"> Returns Policy </a>
               </li>
 
               <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-                  Refund Policy
-                </a>
+                <a href="#" class="text-white transition hover:text-primary"> Refund Policy </a>
               </li>
 
               <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-                  Hiring Statistics
-                </a>
+                <a href="#" class="text-white transition hover:text-primary"> Hiring Statistics </a>
               </li>
             </ul>
           </nav>
         </div>
       </div>
 
-      <p class="text-xs text-gray-500 dark:text-white">
-        &copy; 2023. Company Name. All rights reserved.
-      </p>
+      <p class="text-xs text-primary">&copy; 2023. Company Name. All rights reserved.</p>
     </div>
   </footer>
 </template>

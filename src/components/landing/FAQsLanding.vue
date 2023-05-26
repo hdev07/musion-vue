@@ -13,7 +13,7 @@
           provident impedit esse recusandae facere libero harum sequi.
         </p>
       </div>
-      <div class="py-8 sm:py-12 lg:py-16">
+      <div class="mx-8 py-8 sm:py-12 lg:py-16 lg:mx-16">
         <details
           class="group rounded-lg bg-background py-6 [&_summary::-webkit-details-marker]:hidden"
           open

@@ -17,7 +17,7 @@
             <div>
               <label class="sr-only" for="name">Name</label>
               <input
-                class="w-full rounded-lg bg-background p-3 text-sm text-white"
+                class="w-full rounded-lg active:border active:border-primary bg-background p-3 text-sm text-white"
                 placeholder="Name"
                 type="text"
                 id="name"
@@ -28,7 +28,7 @@
               <div>
                 <label class="sr-only" for="email">Email</label>
                 <input
-                  class="w-full rounded-lg p-3 text-sm bg-background text-white"
+                  class="w-full rounded-lg active:border active:border-primary p-3 text-sm bg-background text-white"
                   placeholder="Email address"
                   type="email"
                   id="email"
@@ -38,7 +38,7 @@
               <div>
                 <label class="sr-only" for="phone">Phone</label>
                 <input
-                  class="w-full rounded-lg p-3 text-sm bg-background text-white"
+                  class="w-full rounded-lg active:border active:border-primary p-3 text-sm bg-background text-white"
                   placeholder="Phone Number"
                   type="tel"
                   id="phone"
@@ -50,20 +50,19 @@
               <label class="sr-only" for="message">Message</label>
 
               <textarea
-                class="w-full rounded-lg p-3 text-sm bg-background text-white"
+                class="w-full rounded-lg active:border active:border-primary p-3 text-sm bg-background text-white"
                 placeholder="Message"
                 rows="8"
                 id="message"
               ></textarea>
             </div>
 
-            <div class="mt-4 flex justify-center">
-              <button
-                type="submit"
-                class="inline-block w-full rounded-lg bg-primary px-5 py-3 font-medium text-white sm:w-auto"
+            <div class="mt-4 flex justify-center text-center">
+              <a
+                class="block w-full rounded border border-primary bg-primary px-12 py-3 text-sm font-medium text-white hover:shadow-xl focus:outline-none focus:ring active:text-opacity-75 sm:w-auto hover:bg-transparent hover:text-white hover:shadow-pink-500/30"
               >
-                Send Enquiry
-              </button>
+                Send Coments
+              </a>
             </div>
           </form>
         </div>

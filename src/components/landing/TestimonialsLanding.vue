@@ -16,7 +16,7 @@
 
       <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
         <div
-          class="block rounded-xl border border-pink-500/5 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+          class="block rounded-xl border border-pink-500/10 bg-secondary p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/30"
         >
           <div class="flex items-center gap-4">
             <img
@@ -90,7 +90,7 @@
         </div>
 
         <div
-          class="block rounded-xl border border-pink-500/5 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+          class="block rounded-xl border border-pink-500/10 bg-secondary p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/30"
         >
           <div class="flex items-center gap-4">
             <img
@@ -164,7 +164,7 @@
         </div>
 
         <div
-          class="block rounded-xl border border-pink-500/5 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+          class="block rounded-xl border border-pink-500/10 bg-secondary p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/30"
         >
           <div class="flex items-center gap-4">
             <img

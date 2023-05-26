@@ -15,9 +15,9 @@
       </div>
 
       <div class="mt-8 sm:mt-12">
-        <div class="grid grid-cols-1 gap-4 sm:grid-cols-3">
+        <div class="grid grid-cols-1 gap-8 sm:grid-cols-3">
           <div
-            class="block rounded-xl border border-pink-500/5 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+            class="block rounded-xl border border-pink-500/10 p-8 bg-secondary hover:shadow-xl transition hover:border-pink-500/30 hover:shadow-pink-500/30"
           >
             <dt class="text-xl font-bold text-white">Lorem ipmsu</dt>
 
@@ -25,7 +25,7 @@
           </div>
 
           <div
-            class="block rounded-xl border border-pink-500/5 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+            class="block rounded-xl border border-pink-500/10 p-8 bg-secondary hover:shadow-xl transition hover:border-pink-500/30 hover:shadow-pink-500/30"
           >
             <dt class="text-xl font-bold text-white">Lorem ipmsu</dt>
 
@@ -33,7 +33,7 @@
           </div>
 
           <div
-            class="block rounded-xl border border-pink-500/5 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+            class="block rounded-xl border border-pink-500/10 p-8 bg-secondary hover:shadow-xl transition hover:border-pink-500/30 hover:shadow-pink-500/30"
           >
             <dt class="text-xl font-bold text-white">Lorem ipmsu</dt>
 

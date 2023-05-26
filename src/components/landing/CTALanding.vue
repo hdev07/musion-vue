@@ -21,7 +21,7 @@
             Registrate
           </a>
           <a
-            class="block w-full rounded border border-primary bg-primary px-12 py-3 text-sm font-medium text-white shadow-xl focus:outline-none focus:ring active:text-opacity-75 sm:w-auto hover:bg-transparent hover:text-white hover:shadow-pink-500/10"
+            class="block w-full rounded border border-primary bg-primary px-12 py-3 text-sm font-medium text-white hover:shadow-xl focus:outline-none focus:ring active:text-opacity-75 sm:w-auto hover:bg-transparent hover:text-white hover:shadow-pink-500/30"
           >
             Inicia sesion
           </a>

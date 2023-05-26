@@ -16,7 +16,7 @@
 
       <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
         <a
-          class="block rounded-xl border border-pink-500/5 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+          class="block rounded-xl border border-pink-500/10 p-8 hover:shadow-xl transition bg-secondary hover:border-pink-500/30 hover:shadow-pink-500/30"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -46,7 +46,7 @@
         </a>
 
         <a
-          class="block rounded-xl border border-pink-500/5 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+          class="block rounded-xl border border-pink-500/10 p-8 hover:shadow-xl transition bg-secondary hover:border-pink-500/30 hover:shadow-pink-500/30"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -76,7 +76,7 @@
         </a>
 
         <a
-          class="block rounded-xl border border-pink-500/5 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+          class="block rounded-xl border border-pink-500/10 p-8 hover:shadow-xl transition bg-secondary hover:border-pink-500/30 hover:shadow-pink-500/30"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -106,7 +106,7 @@
         </a>
 
         <a
-          class="block rounded-xl border border-pink-500/5 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+          class="block rounded-xl border border-pink-500/10 p-8 hover:shadow-xl transition bg-secondary hover:border-pink-500/30 hover:shadow-pink-500/30"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -136,7 +136,7 @@
         </a>
 
         <a
-          class="block rounded-xl border border-pink-500/5 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+          class="block rounded-xl border border-pink-500/10 p-8 hover:shadow-xl transition bg-secondary hover:border-pink-500/30 hover:shadow-pink-500/30"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -166,7 +166,7 @@
         </a>
 
         <a
-          class="block rounded-xl border border-pink-500/5 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+          class="block rounded-xl border border-pink-500/10 p-8 hover:shadow-xl transition bg-secondary hover:border-pink-500/30 hover:shadow-pink-500/30"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -198,7 +198,7 @@
 
       <div class="mt-12 flex flex-wrap justify-center gap-4 text-center">
         <a
-          class="block w-full rounded border border-primary bg-primary px-12 py-3 text-sm font-medium text-white shadow-xl focus:outline-none focus:ring active:text-opacity-75 sm:w-auto hover:bg-transparent hover:text-white hover:shadow-pink-500/10"
+          class="block w-full rounded border border-primary bg-primary px-12 py-3 text-sm font-medium text-white hover:shadow-xl focus:outline-none focus:ring active:text-opacity-75 sm:w-auto hover:bg-transparent hover:text-white hover:shadow-pink-500/30"
         >
           Inicia sesion
         </a>
