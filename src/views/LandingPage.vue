@@ -11,13 +11,13 @@ import FooterLanding from '@/components/landing/FooterLanding.vue'
 
 <template>
   <main>
-    <NavbarLanding id="Home" />
-    <CTALanding id="Hero" />
-    <StatsLanding id="Stats" />
-    <SectionLanding />
-    <FAQsLanding />
-    <TestimonialsLanding />
-    <ContactFormLanding />
+    <NavbarLanding />
+    <CTALanding id="Home" />
+    <StatsLanding id="AboutUs" />
+    <SectionLanding id="Museums" />
+    <FAQsLanding id="FAQs" />
+    <TestimonialsLanding id="Testimonials" />
+    <ContactFormLanding id="ContactUs" />
     <FooterLanding />
   </main>
 </template>
