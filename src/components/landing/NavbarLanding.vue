@@ -111,7 +111,7 @@ onMounted(() => {
 
   <div class="md:hidden" :class="{ hidden: !mobileMenuVisible }">
     <div
-      class="fixed inset-0 flex flex-col items-center justify-center bg-secondary hover:text-primary"
+      class="fixed inset-0 z-20 flex flex-col items-center justify-center bg-secondary hover:text-primary"
     >
       <div class="absolute top-0 w-full flex">
         <button class="absolute right-0 m-4 p-2 text-primary transition" @click="toggleMobileMenu">
