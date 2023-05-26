@@ -40,20 +40,20 @@ import Logo from '@/assets/logos/OnlyTextLogo.vue'
 
         <div class="flex items-center gap-4">
           <div class="sm:flex sm:gap-4">
-            <RouterLink to="/register">
+            <a href="https://app.musion.day">
               <div
                 class="hidden w-full rounded border border-primary px-5 py-2 text-sm text-white hover:bg-primary sm:block"
               >
-                Registrate
+                Registrame
               </div>
-            </RouterLink>
-            <RouterLink to="/login">
+            </a>
+            <a href="https://app.musion.day/login">
               <div
                 class="block w-full rounded border border-primary px-5 py-2 text-sm text-white shadow-xl bg-primary hover:bg-transparent hover:text-white hover:shadow-pink-500/10"
               >
                 Inicia sesion
               </div>
-            </RouterLink>
+            </a>
           </div>
 
           <button class="block rounded-md p-2 text-white transition hover:text-primary md:hidden">
