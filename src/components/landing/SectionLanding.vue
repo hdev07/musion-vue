@@ -18,6 +18,7 @@
         <a
           class="block rounded-xl border border-pink-500/10 p-8 hover:shadow-xl transition bg-secondary hover:border-pink-500/30 hover:shadow-pink-500/30"
         >
+          <vue-feather type="map" stroke="#FF4081" size="2.5rem"></vue-feather>
           <h2 class="mt-4 text-xl font-bold text-white">
             Explora la Ciudad de México a través de un viaje cultural único
           </h2>
@@ -31,6 +32,8 @@
         <a
           class="block rounded-xl border border-pink-500/10 p-8 hover:shadow-xl transition bg-secondary hover:border-pink-500/30 hover:shadow-pink-500/30"
         >
+          <vue-feather type="grid" stroke="#FF4081" size="2.5rem"></vue-feather>
+
           <h2 class="mt-4 text-xl font-bold text-white">
             Descubre la increíble diversidad de los museos de la Ciudad
           </h2>
@@ -44,6 +47,7 @@
         <a
           class="block rounded-xl border border-pink-500/10 p-8 hover:shadow-xl transition bg-secondary hover:border-pink-500/30 hover:shadow-pink-500/30"
         >
+          <vue-feather type="image" stroke="#FF4081" size="2.5rem"></vue-feather>
           <h2 class="mt-4 text-xl font-bold text-white">
             Sumérgete en el mundo del arte y la historia de la Ciudad
           </h2>
@@ -57,6 +61,8 @@
         <a
           class="block rounded-xl border border-pink-500/10 p-8 hover:shadow-xl transition bg-secondary hover:border-pink-500/30 hover:shadow-pink-500/30"
         >
+          <vue-feather type="shield" stroke="#FF4081" size="2.5rem"></vue-feather>
+
           <h2 class="mt-4 text-xl font-bold text-white">
             Musion te lleva de la mano a través de los museos más fascinantes de la Ciudad
           </h2>
@@ -69,6 +75,8 @@
         <a
           class="block rounded-xl border border-pink-500/10 p-8 hover:shadow-xl transition bg-secondary hover:border-pink-500/30 hover:shadow-pink-500/30"
         >
+          <vue-feather type="camera" stroke="#FF4081" size="2.5rem"></vue-feather>
+
           <h2 class="mt-4 text-xl font-bold text-white">
             Haz de tu visita a los museos de la Ciudad una experiencia inolvidable
           </h2>
@@ -82,6 +90,8 @@
         <a
           class="block rounded-xl border border-pink-500/10 p-8 hover:shadow-xl transition bg-secondary hover:border-pink-500/30 hover:shadow-pink-500/30"
         >
+          <vue-feather type="unlock" stroke="#FF4081" size="2.5rem"></vue-feather>
+
           <h2 class="mt-4 text-xl font-bold text-white">
             Musion: desbloquear la riqueza cultural de la Ciudad
           </h2>
