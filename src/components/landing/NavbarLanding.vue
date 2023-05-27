@@ -133,7 +133,6 @@ onMounted(() => {
           :text="'Register'"
           :hBgPrimary="true"
           :smBlock="true"
-          :hidden="true"
         />
       </div>
       <div class="w-2/3">
