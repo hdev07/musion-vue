@@ -66,8 +66,8 @@ onMounted(() => {
         <Logo class="w-32" :currentFill="'#FF4081'" />
       </a>
       <div class="flex flex-1 items-center justify-end md:justify-between">
-        <nav class="hidden md:block">
-          <ul class="flex items-center gap-6 text-sm">
+        <nav class="hidden md:block mr-4">
+          <ul class="flex items-center gap-6 text-sm md:gap-3">
             <li v-for="link in Links" :key="link.title">
               <a class="text-white transition hover:text-primary/75" :href="link?.href">
                 {{ link?.title }}
