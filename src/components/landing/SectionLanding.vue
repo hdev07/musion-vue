@@ -59,7 +59,7 @@ const Stats = ref([
       <div class="mt-12 justify-center gap-4 text-center mx-auto lg:w-1/4 md:w-1/3">
         <ButtonCommon
           :to="'https://app.musion.day/login'"
-          :text="'Login'"
+          :text="'Iniciar sesión'"
           :bgPrimary="true"
           :hBgTransparent="true"
           :hShadowPink="true"

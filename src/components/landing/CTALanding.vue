@@ -16,12 +16,12 @@ import ButtonCommon from '@/components/common/ButtonCommon.vue'
         </p>
         <div class="mt-8 flex justify-center gap-4">
           <div class="w-2/3">
-            <ButtonCommon :to="'https://app.musion.day'" :text="'Register'" :HBgPrimary="true" />
+            <ButtonCommon :to="'https://app.musion.day'" :text="'Registrarme'" :HBgPrimary="true" />
           </div>
           <div class="w-2/3">
             <ButtonCommon
               :to="'https://app.musion.day/login'"
-              :text="'Login'"
+              :text="'Iniciar sesión'"
               :bgPrimary="true"
               :hBgTransparent="true"
               :hShadowPink="true"

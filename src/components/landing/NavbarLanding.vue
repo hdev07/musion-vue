@@ -79,14 +79,14 @@ onMounted(() => {
           <div class="sm:flex sm:gap-4">
             <ButtonCommon
               :to="'https://app.musion.day'"
-              :text="'Register'"
+              :text="'Registrarme'"
               :hBgPrimary="true"
               :smBlock="true"
               :hidden="true"
             />
             <ButtonCommon
               :to="'https://app.musion.day/login'"
-              :text="'Login'"
+              :text="'Iniciar sesión'"
               :bgPrimary="true"
               :hBgTransparent="true"
               :hShadowPink="true"
@@ -130,7 +130,7 @@ onMounted(() => {
       <div class="w-2/3 mb-4">
         <ButtonCommon
           :to="'https://app.musion.day'"
-          :text="'Register'"
+          :text="'Registrarme'"
           :hBgPrimary="true"
           :smBlock="true"
         />
@@ -138,7 +138,7 @@ onMounted(() => {
       <div class="w-2/3">
         <ButtonCommon
           :to="'https://app.musion.day/login'"
-          :text="'Login'"
+          :text="'Iniciar sesión'"
           :bgPrimary="true"
           :hBgTransparent="true"
           :hShadowPink="true"

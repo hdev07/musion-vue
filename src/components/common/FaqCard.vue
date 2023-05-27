@@ -29,8 +29,8 @@ const props = defineProps({
         />
       </span>
     </summary>
-    <div class="flex items-center ml-6">
-      <vue-feather type="corner-down-right" stroke="#FF4081" size="1.3rem" class="pr-4" />
+    <div class="flex items-start ml-6">
+      <vue-feather type="corner-down-right" stroke="#FF4081" size="1.3rem" class="pr-5 mt-2" />
       <p class="mt-2 px-3 leading-relaxed text-white">
         {{ props?.answer }}
       </p>
