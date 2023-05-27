@@ -5,29 +5,52 @@ import TitleCommon from '@/components/common/TitleCommon.vue'
 
 const FAQs = ref([
   {
-    question: 'Inicio',
-    answer: '#Home',
+    question: '¿Qué es Musion?',
+    answer:
+      'Musion es una PWA (Progressive Web App). Diseñada para explorar y descubrir los museos de la Ciudad de México. ',
     show: true
   },
   {
-    question: 'Nosotros',
-    answer: '#AboutUs'
+    question: '¿Cómo funciona Musion?',
+    answer:
+      'Musion utiliza un mapa interactivo para mostrar la ubicación de los museos en la Ciudad de México. Los usuarios pueden navegar por el mapa, seleccionar museos y obtener información detallada sobre cada uno.'
   },
   {
-    question: 'Museos',
-    answer: '#Museums'
+    question: '¿Cuál es el objetivo principal de Musion?',
+    answer:
+      'El objetivo principal de Musion es proporcionar a los usuarios una herramienta fácil de usar para explorar los museos de la Ciudad de México, planificar visitas y descubrir exposiciones y eventos culturales.'
   },
   {
-    question: 'FAQs',
-    answer: '#FAQs'
+    question: '¿En qué dispositivos puedo utilizar Musion?',
+    answer:
+      'Actualmente Musion está disponible como aplicación Web,lo que permite a los usuarios acceder a ella desde sus teléfonos.'
   },
   {
-    question: 'Testimonios',
-    answer: '#Testimonials'
+    question: '¿Cuántos museos están disponibles en Musion?',
+    answer:
+      'Musion cuenta con una amplia base de datos que incluye información sobre 177 museos en la Ciudad de México. (Proximamente los museos en todo mexico.)'
   },
   {
-    question: 'Contactanos',
-    answer: '#ContactUs'
+    question: '¿Puedo obtener información detallada sobre cada museo?',
+    answer:
+      '    Sí, Musion proporciona información detallada sobre cada museo, como horarios de apertura, precios de entrada, exposiciones actuales y eventos especiales.'
+  },
+  {
+    question:
+      '¿Musion proporciona información sobre las exposiciones y eventos actuales en los museos?',
+    answer:
+      '    Sí, Musion mantiene su base de datos actualizada con información sobre las exposiciones y eventos actuales en los museos de la Ciudad de México.'
+  },
+  {
+    question: '¿Puedo crear rutas personalizadas para visitar varios museos en un mismo día?',
+    answer:
+      '    Sí, Musion ofrece la opción de generar rutas personalizadas, lo que permite a los usuarios planificar su recorrido y optimizar su tiempo al visitar varios museos en un mismo día.'
+  },
+  {
+    question:
+      '¿Musion ofrece información sobre horarios de apertura, precios de entrada y ubicación de los museos?',
+    answer:
+      '    Sí, Musion proporciona información detallada sobre horarios de apertura, precios de entrada y ubicación de cada museo incluido en la aplicación.'
   }
 ])
 </script>

@@ -7,11 +7,11 @@ const props = defineProps({
 </script>
 <template>
   <details
-    class="group rounded-lg bg-background py-6 [&_summary::-webkit-details-marker]:hidden"
+    class="group rounded-lg bg-background py-4 [&_summary::-webkit-details-marker]:hidden"
     :open="props?.isOpen"
   >
     <summary class="flex cursor-pointer items-center justify-between gap-1.5 text-white">
-      <h2 class="font-medium">
+      <h2 class="font-medium mx-4">
         {{ props.question }}
       </h2>
       <span class="relative h-5 w-5 shrink-0">
@@ -29,9 +29,11 @@ const props = defineProps({
         />
       </span>
     </summary>
-
-    <p class="mt-4 px-4 leading-relaxed text-white">
-      {{ props.answer }}
-    </p>
+    <div class="flex items-center ml-6">
+      <vue-feather type="corner-down-right" stroke="#FF4081" size="1.3rem" class="pr-4" />
+      <p class="mt-2 px-3 leading-relaxed text-white">
+        {{ props.answer }}
+      </p>
+    </div>
   </details>
 </template>
