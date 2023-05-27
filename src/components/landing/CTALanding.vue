@@ -1,4 +1,6 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import ButtonCommon from '@/components/common/ButtonCommon.vue'
+</script>
 <template>
   <section class="bg-background text-white">
     <div class="mx-auto max-w-screen-lg px-4 py-32 h-screen flex items-center">
@@ -12,19 +14,19 @@
         <p class="mx-auto mt-4 max-w-xl sm:text-xl/relaxed">
           Explora los museos más fascinantes de la ciudad y sumérgete en su historia y arte.
         </p>
-        <div class="mt-8 flex flex-wrap justify-center gap-4">
-          <a
-            href="'https://app.musion.day'"
-            class="block w-full rounded border border-primary px-12 py-3 text-sm font-medium text-white hover:bg-primary focus:outline-none focus:ring active:bg-primary sm:w-auto"
-          >
-            Registrate
-          </a>
-          <a
-            href="'https://app.musion.day/login'"
-            class="block w-full rounded border border-primary bg-primary px-12 py-3 text-sm font-medium text-white hover:shadow-xl focus:outline-none focus:ring active:text-opacity-75 sm:w-auto hover:bg-transparent hover:text-white hover:shadow-pink-500/30"
-          >
-            Inicia sesion
-          </a>
+        <div class="mt-8 flex justify-center gap-4">
+          <div class="w-2/3">
+            <ButtonCommon :to="'https://app.musion.day'" :text="'Register'" :HBgPrimary="true" />
+          </div>
+          <div class="w-2/3">
+            <ButtonCommon
+              :to="'https://app.musion.day/login'"
+              :text="'Login'"
+              :bgPrimary="true"
+              :hBgTransparent="true"
+              :hShadowPink="true"
+            />
+          </div>
         </div>
       </div>
     </div>

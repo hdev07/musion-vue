@@ -80,16 +80,16 @@ onMounted(() => {
             <ButtonCommon
               :to="'https://app.musion.day'"
               :text="'Register'"
-              :HBgPrimary="true"
-              :SmBlock="true"
+              :hBgPrimary="true"
+              :smBlock="true"
               :hidden="true"
             />
             <ButtonCommon
               :to="'https://app.musion.day/login'"
               :text="'Login'"
-              :BgPrimary="true"
-              :HBgTransparent="true"
-              :HShadowPink="true"
+              :bgPrimary="true"
+              :hBgTransparent="true"
+              :hShadowPink="true"
             />
           </div>
           <button
@@ -131,19 +131,18 @@ onMounted(() => {
         <ButtonCommon
           :to="'https://app.musion.day'"
           :text="'Register'"
-          :HBgPrimary="true"
-          :SmBlock="true"
-          :hidden="!mobileMenuVisible"
-          class="mb-2"
+          :hBgPrimary="true"
+          :smBlock="true"
+          :hidden="true"
         />
       </div>
       <div class="w-2/3">
         <ButtonCommon
           :to="'https://app.musion.day/login'"
           :text="'Login'"
-          :BgPrimary="true"
-          :HBgTransparent="true"
-          :HShadowPink="true"
+          :bgPrimary="true"
+          :hBgTransparent="true"
+          :hShadowPink="true"
         />
       </div>
     </div>

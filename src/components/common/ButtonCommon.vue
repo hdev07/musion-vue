@@ -2,24 +2,24 @@
 const props = defineProps({
   to: { type: String, required: true },
   text: { type: String, required: true },
-  BgPrimary: { type: Boolean, default: false },
-  HBgTransparent: { type: Boolean, default: false },
-  HShadowPink: { type: Boolean, default: false },
-  HBgPrimary: { type: Boolean, default: false },
+  bgPrimary: { type: Boolean, default: false },
+  hBgTransparent: { type: Boolean, default: false },
+  hShadowPink: { type: Boolean, default: false },
+  hBgPrimary: { type: Boolean, default: false },
   hidden: { type: Boolean, default: false },
-  SmBlock: { type: Boolean, default: false }
+  smBlock: { type: Boolean, default: false }
 })
 </script>
 <template>
   <a :href="props?.to">
     <div
       :class="{
-        'bg-primary': props?.BgPrimary,
-        'hover:bg-transparent': props?.HBgTransparent,
-        'hover:bg-primary': props?.HBgPrimary,
-        'hover:shadow-pink-500/30': props?.HShadowPink,
+        'bg-primary': props?.bgPrimary,
+        'hover:bg-transparent': props?.hBgTransparent,
+        'hover:bg-primary': props?.hBgPrimary,
+        'hover:shadow-pink-500/30': props?.hShadowPink,
         hidden: props?.hidden,
-        'sm:block': props?.SmBlock
+        'sm:block': props?.smBlock
       }"
       class="block w-full rounded border border-primary px-5 py-2 text-sm text-white text-center hover:shadow-xl"
     >
