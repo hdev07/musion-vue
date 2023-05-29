@@ -63,6 +63,7 @@ const Stats = ref([
           :bgPrimary="true"
           :hBgTransparent="true"
           :hShadowPink="true"
+          target="_blank"
         />
       </div>
     </div>

@@ -83,6 +83,7 @@ onMounted(() => {
               :hBgPrimary="true"
               :smBlock="true"
               :hidden="true"
+              target="_blank"
             />
             <ButtonCommon
               :to="'https://app.musion.day/login'"
@@ -90,6 +91,7 @@ onMounted(() => {
               :bgPrimary="true"
               :hBgTransparent="true"
               :hShadowPink="true"
+              target="_blank"
             />
           </div>
           <button
@@ -133,6 +135,7 @@ onMounted(() => {
           :text="'Registrarme'"
           :hBgPrimary="true"
           :smBlock="true"
+          target="_blank"
         />
       </div>
       <div class="w-2/3">
@@ -142,6 +145,7 @@ onMounted(() => {
           :bgPrimary="true"
           :hBgTransparent="true"
           :hShadowPink="true"
+          target="_blank"
         />
       </div>
     </div>

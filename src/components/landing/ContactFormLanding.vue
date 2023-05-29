@@ -61,11 +61,12 @@ import ButtonCommon from '@/components/common/ButtonCommon.vue'
             <div class="mt-4 flex justify-center text-center">
               <div class="w-2/3 sm:w-1/3">
                 <ButtonCommon
-                  :to="'https://app.musion.day/login'"
+                  :to="'/'"
                   :text="'Enviar comentarios'"
                   :bgPrimary="true"
                   :hBgTransparent="true"
                   :hShadowPink="true"
+                  target="_blank"
                 />
               </div>
             </div>
