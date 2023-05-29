@@ -16,13 +16,13 @@ const props = defineProps({
       </h2>
       <span class="relative h-5 w-5 shrink-0">
         <vue-feather
-          type="minus-circle"
+          type="plus-circle"
           stroke="#FF4081"
           size="1.3rem"
           class="absolute inset-0 opacity-100 group-open:opacity-0"
         />
         <vue-feather
-          type="plus-circle"
+          type="minus-circle"
           stroke="#FF4081"
           size="1.3rem"
           class="absolute inset-0 opacity-0 group-open:opacity-100"
