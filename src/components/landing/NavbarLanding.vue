@@ -66,7 +66,7 @@ onMounted(() => {
         <Logo class="w-32" :currentFill="'#FF4081'" />
       </a>
       <div
-        class="flex flex-1 items-center justify-end sm:justify-end md:justify-between lg:justify-between"
+        class="flex flex-1 items-center justify-end sm:justify-end md:justify-between lg:justify-between xl:justify-between"
       >
         <nav class="hidden md:block mr-4">
           <ul class="flex items-center gap-6 text-sm md:gap-3">
