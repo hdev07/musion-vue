@@ -12,11 +12,15 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "axios": "^1.4.0",
+    "dotenv": "^16.1.1",
     "feather-icons": "^4.29.0",
     "pinia": "^2.0.36",
+    "vee-validate": "^4.9.5",
     "vue": "^3.3.4",
     "vue-feather": "^2.0.0",
-    "vue-router": "^4.2.0"
+    "vue-router": "^4.2.0",
+    "vuetify": "^3.3.2"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.2.0",
