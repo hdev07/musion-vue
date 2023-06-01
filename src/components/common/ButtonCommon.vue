@@ -1,6 +1,6 @@
 <script setup lang="ts">
 const props = defineProps({
-  to: { type: String, required: true },
+  to: { type: String, default: '#' },
   text: { type: String, required: true },
   bgPrimary: { type: Boolean, default: false },
   hBgTransparent: { type: Boolean, default: false },
@@ -21,7 +21,7 @@ const props = defineProps({
         hidden: props?.hidden,
         'sm:block': props?.smBlock
       }"
-      class="block w-full rounded border border-primary px-5 py-2 text-sm text-white text-center hover:shadow-xl"
+      class="block w-full rounded border-2 border-primary px-5 py-2 text-sm text-white text-center hover:shadow-xl"
     >
       {{ props?.text }}
     </div>
