@@ -1,5 +1,26 @@
 <script setup lang="ts">
-import ButtonCommon from '@/components/common/ButtonCommon.vue'
+import FormCommon from '@/components/common/FormCommon.vue'
+import axios from 'axios'
+
+const BASE_URL = import.meta.env.VITE_BASE_URL
+
+async function sendComment(body) {
+  try {
+    // const res = await axios({
+    //   method: 'post',
+    //   url: `${BASE_URL}/opinions`,
+    //   data: {
+    //     name: body?.name?.value,
+    //     email: body?.email?.value,
+    //     telephone: body?.telephone?.value,
+    //     comment: body?.comment?.value
+    //   }
+    // })
+    console.log(body)
+  } catch (error) {
+    console.log(error)
+  }
+}
 </script>
 
 <template>
@@ -17,60 +38,8 @@ import ButtonCommon from '@/components/common/ButtonCommon.vue'
           </p>
         </div>
 
-        <div class="rounded-lg bg-secondary p-8 shadow-lg lg:col-span-3 lg:p-12">
-          <form action="" class="space-y-4">
-            <div>
-              <label class="sr-only" for="name">Nombre</label>
-              <input
-                class="w-full rounded-lg active:border active:border-primary bg-background p-3 text-sm text-white"
-                placeholder="Nombre"
-                type="text"
-                id="name"
-              />
-            </div>
-
-            <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
-              <div>
-                <input
-                  class="w-full rounded-lg active:border active:border-primary p-3 text-sm bg-background text-white"
-                  placeholder="Correo electronico"
-                  type="email"
-                  id="email"
-                />
-              </div>
-
-              <div>
-                <input
-                  class="w-full rounded-lg active:border active:border-primary p-3 text-sm bg-background text-white"
-                  placeholder="Numero de telefono"
-                  type="tel"
-                  id="phone"
-                />
-              </div>
-            </div>
-
-            <div>
-              <textarea
-                class="w-full rounded-lg active:border active:border-primary p-3 text-sm bg-background text-white"
-                placeholder="Mensaje"
-                rows="8"
-                id="message"
-              ></textarea>
-            </div>
-
-            <div class="mt-4 flex justify-center text-center">
-              <div class="w-2/3 sm:w-1/3">
-                <ButtonCommon
-                  :to="'/'"
-                  :text="'Enviar comentarios'"
-                  :bgPrimary="true"
-                  :hBgTransparent="true"
-                  :hShadowPink="true"
-                  target="_blank"
-                />
-              </div>
-            </div>
-          </form>
+        <div class="rounded-lg bg-secondary p-8 lg:col-span-3 lg:p-12">
+          <FormCommon @submit:form="sendComment" />
         </div>
       </div>
     </div>
