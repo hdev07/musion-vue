@@ -57,6 +57,8 @@ const SocialLinks = ref([
     href: 'https://twitter.com/musion_app'
   }
 ])
+
+const currentYear = new Date().getFullYear();
 </script>
 
 <template>
@@ -127,7 +129,9 @@ const SocialLinks = ref([
       </div>
       <!-- *https://cuentame.inegi.org.mx/monografias/informacion/df/poblacion/ -->
       <!-- https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2022/EstMuseos/EstMuseos2021.pdf -->
-      <p class="text-xs text-primary">&copy; 2023. Musion. Todos los derechos reservados.</p>
+      <p class="text-xs text-primary">
+        &copy; {{ currentYear }}. Musion. Todos los derechos reservados.
+      </p>
     </div>
   </footer>
 </template>
