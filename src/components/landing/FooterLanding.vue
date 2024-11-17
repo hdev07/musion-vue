@@ -35,11 +35,11 @@ const HelpLinks = ref([
 const LegalLinks = ref([
   {
     title: 'Privacy policy',
-    href: '#FAQs'
+    href: '/privacy-policy'
   },
   {
     title: 'Terms of use',
-    href: '#ContactUs'
+    href: '/terms-of-service'
   }
 ])
 
@@ -58,7 +58,7 @@ const SocialLinks = ref([
   }
 ])
 
-const currentYear = new Date().getFullYear();
+const currentYear = new Date().getFullYear()
 </script>
 
 <template>
@@ -127,8 +127,27 @@ const currentYear = new Date().getFullYear();
           </nav>
         </div>
       </div>
-      <!-- *https://cuentame.inegi.org.mx/monografias/informacion/df/poblacion/ -->
-      <!-- https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2022/EstMuseos/EstMuseos2021.pdf -->
+
+      <ul>
+        <li>
+          <a
+            href="https://cuentame.inegi.org.mx/monografias/informacion/df/poblacion/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            *Poblacion en CDMX al 2020
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.inegi.org.mx/sistemas/olap/proyectos/bd/continuas/museos/caracmuseos_new.asp"
+            target="_blank"
+            rel="noreferrer"
+          >
+            *Estadisticas de Museos en Mexico y Edo. Mex.
+          </a>
+        </li>
+      </ul>
       <p class="text-xs text-primary">
         &copy; {{ currentYear }}. Musion. Todos los derechos reservados.
       </p>

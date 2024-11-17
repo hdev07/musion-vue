@@ -8,15 +8,19 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: LandingPage
+    },
+    // /privacy-policy
+    {
+      path: '/privacy-policy',
+      name: 'privacy-policy',
+      component: () => import('@/views/PrivacyPolicy.vue')
+    },
+    // /terms-of-service
+    {
+      path: '/terms-of-service',
+      name: 'terms-of-service',
+      component: () => import('@/views/TermsOfService.vue')
     }
-    // {
-    //   path: '/about',
-    //   name: 'about',
-    //   // route level code-splitting
-    //   // this generates a separate chunk (About.[hash].js) for this route
-    //   // which is lazy-loaded when the route is visited.
-    //   component: () => import('../views/AboutView.vue')
-    // }
   ]
 })
 
